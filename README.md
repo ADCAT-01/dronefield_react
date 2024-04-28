@@ -1,3 +1,6 @@
+### 드론평야 웹앱입니다
+아래있는 것들은 리액트 생성시 자동으로 생성되는 것들이라 굳이 읽어보지 않아도 됩니다
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

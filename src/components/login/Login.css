@@ -1,0 +1,67 @@
+.wrapper {
+    /* height: 500px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 450px;
+    background-color: transparent;
+    border: 2px solid rgb(239, 241, 243);
+    border-radius: 10px;
+    padding: 80px 80px;
+}
+
+:root {
+    --text-color: #fff;
+    --btn-orginal-color: rgb(150, 180, 62);
+    --btn-shade-color: rgb(122, 147, 48);
+}
+
+.btn-primary {
+    color: var(--text-color);
+    background-color: var(--btn-orginal-color);
+    border-color: var(--btn-orginal-color);
+}
+
+.btn-primary:active {
+    color: var(--text-color);
+    --bs-btn-active-bg: var(--btn-shade-color);
+    --bs-btn-active-border-color: var(--btn-shade-color);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    --bs-btn-hover-bg: var(--btn-shade-color);
+    --bs-btn-hover-border-color: var(--btn-shade-color);
+}
+
+.btn-primary:focus {
+    color: var(--text-color);
+    background-color: var(--btn-orginal-color);
+    border-color: var(--btn-orginal-color);
+}
+
+.btn-link {
+    border: none;
+    outline: none;
+}
+
+
+/* .form-inline {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.input-group {
+    width: 100% !important;
+}
+
+.form-control {
+    width: 100% !important;
+}
+
+span.input-group-addon {
+    width: 50px !important;
+} */
